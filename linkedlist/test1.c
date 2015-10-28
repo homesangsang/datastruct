@@ -38,7 +38,8 @@ int main()
 		head=AddNode(head);
 	}
 	printlist(head);
-	system("pause");
+//	system("pause");
+	system("echo 'press any key to continue...' ");
 	DeleteAll(head);
 }
 //用尾插入法建立带头节点的单链表
